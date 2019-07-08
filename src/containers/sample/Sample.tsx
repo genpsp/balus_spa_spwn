@@ -12,7 +12,7 @@ interface Props {
 class Sample extends Component<Props> {
   render() {
     return (
-      <div onClick={()=>this.props.updateNum()}>{this.props.number}</div>
+      <div onClick={() => this.props.updateNum()}>{this.props.number}</div>
     );
   }
 }
